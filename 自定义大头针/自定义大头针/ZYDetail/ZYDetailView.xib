@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYDetailView">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_map_cell" translatesAutoresizingMaskIntoConstraints="NO" id="M1U-fd-CE4">
+                    <rect key="frame" x="0.0" y="0.0" width="180" height="90"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <rect key="contentStretch" x="0.0" y="0.29999999999999999" width="0.0" height="0.0"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gh3-z7-EpW">
+                    <rect key="frame" x="8" y="8" width="62" height="57"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UxM-SR-vBo">
+                    <rect key="frame" x="78" y="8" width="67" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9n-b7-deH">
+                    <rect key="frame" x="78" y="38" width="67" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="M1U-fd-CE4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="930-rR-4bx"/>
+                <constraint firstItem="M1U-fd-CE4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="WGG-9J-Ye1"/>
+                <constraint firstAttribute="bottom" secondItem="M1U-fd-CE4" secondAttribute="bottom" id="XQK-hC-F6a"/>
+                <constraint firstAttribute="trailing" secondItem="M1U-fd-CE4" secondAttribute="trailing" id="ZTV-hc-vOP"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="Gh3-z7-EpW" id="JaT-Ur-VTD"/>
+                <outlet property="subTitle" destination="U9n-b7-deH" id="jHc-CM-Esx"/>
+                <outlet property="title" destination="UxM-SR-vBo" id="Bi2-8i-vOo"/>
+            </connections>
+            <point key="canvasLocation" x="218" y="210"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_map_cell" width="345" height="38"/>
+    </resources>
+</document>

@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DA19AB1BE988A200BFC574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19AA1BE988A200BFC574 /* main.m */; };
+		18DA19AE1BE988A200BFC574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19AD1BE988A200BFC574 /* AppDelegate.m */; };
+		18DA19B11BE988A200BFC574 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19B01BE988A200BFC574 /* ViewController.m */; };
+		18DA19B41BE988A200BFC574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA19B21BE988A200BFC574 /* Main.storyboard */; };
+		18DA19B61BE988A200BFC574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DA19B51BE988A200BFC574 /* Assets.xcassets */; };
+		18DA19B91BE988A200BFC574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA19B71BE988A200BFC574 /* LaunchScreen.storyboard */; };
+		18DA19C11BE988B400BFC574 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DA19C01BE988B400BFC574 /* CoreLocation.framework */; };
+		18DA19C31BE988BC00BFC574 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DA19C21BE988BC00BFC574 /* MapKit.framework */; };
+		18DA19C81BE98A1800BFC574 /* ZYTuangou.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19C71BE98A1800BFC574 /* ZYTuangou.m */; };
+		18DA19CB1BE98BD300BFC574 /* ZYTuangouAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19CA1BE98BD300BFC574 /* ZYTuangouAnnotation.m */; };
+		18DA1A381BEA2EAB00BFC574 /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA1A371BEA2EAB00BFC574 /* UIView+AdjustFrame.m */; };
+		18DA1A3B1BEA346A00BFC574 /* ZYTuangouAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA1A3A1BEA346A00BFC574 /* ZYTuangouAnnotationView.m */; };
+		18DA1A3E1BEA3C6300BFC574 /* ZYDetailTuangouAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA1A3D1BEA3C6300BFC574 /* ZYDetailTuangouAnnotation.m */; };
+		18DA1A441BEA40E800BFC574 /* ZYDetailTuangouAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA1A431BEA40E800BFC574 /* ZYDetailTuangouAnnotationView.m */; };
+		18DA1A471BEA6B3D00BFC574 /* ZYDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA1A461BEA6B3D00BFC574 /* ZYDetailView.m */; };
+		18DA1A491BEA6B7600BFC574 /* ZYDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA1A481BEA6B7600BFC574 /* ZYDetailView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18DA19A61BE988A200BFC574 /* 自定义大头针.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义大头针.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DA19AA1BE988A200BFC574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DA19AC1BE988A200BFC574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18DA19AD1BE988A200BFC574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18DA19AF1BE988A200BFC574 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18DA19B01BE988A200BFC574 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18DA19B31BE988A200BFC574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DA19B51BE988A200BFC574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DA19B81BE988A200BFC574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DA19BA1BE988A200BFC574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DA19C01BE988B400BFC574 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18DA19C21BE988BC00BFC574 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18DA19C61BE98A1800BFC574 /* ZYTuangou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTuangou.h; sourceTree = "<group>"; };
+		18DA19C71BE98A1800BFC574 /* ZYTuangou.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTuangou.m; sourceTree = "<group>"; };
+		18DA19C91BE98BD300BFC574 /* ZYTuangouAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTuangouAnnotation.h; sourceTree = "<group>"; };
+		18DA19CA1BE98BD300BFC574 /* ZYTuangouAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTuangouAnnotation.m; sourceTree = "<group>"; };
+		18DA1A361BEA2EAB00BFC574 /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		18DA1A371BEA2EAB00BFC574 /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		18DA1A391BEA346A00BFC574 /* ZYTuangouAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTuangouAnnotationView.h; sourceTree = "<group>"; };
+		18DA1A3A1BEA346A00BFC574 /* ZYTuangouAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTuangouAnnotationView.m; sourceTree = "<group>"; };
+		18DA1A3C1BEA3C6300BFC574 /* ZYDetailTuangouAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDetailTuangouAnnotation.h; sourceTree = "<group>"; };
+		18DA1A3D1BEA3C6300BFC574 /* ZYDetailTuangouAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDetailTuangouAnnotation.m; sourceTree = "<group>"; };
+		18DA1A421BEA40E800BFC574 /* ZYDetailTuangouAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDetailTuangouAnnotationView.h; sourceTree = "<group>"; };
+		18DA1A431BEA40E800BFC574 /* ZYDetailTuangouAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDetailTuangouAnnotationView.m; sourceTree = "<group>"; };
+		18DA1A451BEA6B3D00BFC574 /* ZYDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDetailView.h; sourceTree = "<group>"; };
+		18DA1A461BEA6B3D00BFC574 /* ZYDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDetailView.m; sourceTree = "<group>"; };
+		18DA1A481BEA6B7600BFC574 /* ZYDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYDetailView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DA19A31BE988A200BFC574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DA19C31BE988BC00BFC574 /* MapKit.framework in Frameworks */,
+				18DA19C11BE988B400BFC574 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DA199D1BE988A200BFC574 = {
+			isa = PBXGroup;
+			children = (
+				18DA19C21BE988BC00BFC574 /* MapKit.framework */,
+				18DA19C01BE988B400BFC574 /* CoreLocation.framework */,
+				18DA19A81BE988A200BFC574 /* 自定义大头针 */,
+				18DA19A71BE988A200BFC574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DA19A71BE988A200BFC574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DA19A61BE988A200BFC574 /* 自定义大头针.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DA19A81BE988A200BFC574 /* 自定义大头针 */ = {
+			isa = PBXGroup;
+			children = (
+				18DA19AC1BE988A200BFC574 /* AppDelegate.h */,
+				18DA19AD1BE988A200BFC574 /* AppDelegate.m */,
+				18DA19AF1BE988A200BFC574 /* ViewController.h */,
+				18DA19B01BE988A200BFC574 /* ViewController.m */,
+				18DA19B21BE988A200BFC574 /* Main.storyboard */,
+				18DA1A361BEA2EAB00BFC574 /* UIView+AdjustFrame.h */,
+				18DA1A371BEA2EAB00BFC574 /* UIView+AdjustFrame.m */,
+				18DA19C51BE989C200BFC574 /* ZYDetail */,
+				18DA19C41BE989A100BFC574 /* ZYTuangou */,
+				18DA19B51BE988A200BFC574 /* Assets.xcassets */,
+				18DA19B71BE988A200BFC574 /* LaunchScreen.storyboard */,
+				18DA19BA1BE988A200BFC574 /* Info.plist */,
+				18DA19A91BE988A200BFC574 /* Supporting Files */,
+			);
+			path = "自定义大头针";
+			sourceTree = "<group>";
+		};
+		18DA19A91BE988A200BFC574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DA19AA1BE988A200BFC574 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DA19C41BE989A100BFC574 /* ZYTuangou */ = {
+			isa = PBXGroup;
+			children = (
+				18DA19C61BE98A1800BFC574 /* ZYTuangou.h */,
+				18DA19C71BE98A1800BFC574 /* ZYTuangou.m */,
+				18DA19C91BE98BD300BFC574 /* ZYTuangouAnnotation.h */,
+				18DA19CA1BE98BD300BFC574 /* ZYTuangouAnnotation.m */,
+				18DA1A391BEA346A00BFC574 /* ZYTuangouAnnotationView.h */,
+				18DA1A3A1BEA346A00BFC574 /* ZYTuangouAnnotationView.m */,
+			);
+			path = ZYTuangou;
+			sourceTree = "<group>";
+		};
+		18DA19C51BE989C200BFC574 /* ZYDetail */ = {
+			isa = PBXGroup;
+			children = (
+				18DA1A3C1BEA3C6300BFC574 /* ZYDetailTuangouAnnotation.h */,
+				18DA1A3D1BEA3C6300BFC574 /* ZYDetailTuangouAnnotation.m */,
+				18DA1A421BEA40E800BFC574 /* ZYDetailTuangouAnnotationView.h */,
+				18DA1A431BEA40E800BFC574 /* ZYDetailTuangouAnnotationView.m */,
+				18DA1A451BEA6B3D00BFC574 /* ZYDetailView.h */,
+				18DA1A461BEA6B3D00BFC574 /* ZYDetailView.m */,
+				18DA1A481BEA6B7600BFC574 /* ZYDetailView.xib */,
+			);
+			path = ZYDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DA19A51BE988A200BFC574 /* 自定义大头针 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DA19BD1BE988A200BFC574 /* Build configuration list for PBXNativeTarget "自定义大头针" */;
+			buildPhases = (
+				18DA19A21BE988A200BFC574 /* Sources */,
+				18DA19A31BE988A200BFC574 /* Frameworks */,
+				18DA19A41BE988A200BFC574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义大头针";
+			productName = "自定义大头针";
+			productReference = 18DA19A61BE988A200BFC574 /* 自定义大头针.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DA199E1BE988A200BFC574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ZZY;
+				TargetAttributes = {
+					18DA19A51BE988A200BFC574 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7R5X3C7UD7;
+					};
+				};
+			};
+			buildConfigurationList = 18DA19A11BE988A200BFC574 /* Build configuration list for PBXProject "自定义大头针" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DA199D1BE988A200BFC574;
+			productRefGroup = 18DA19A71BE988A200BFC574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DA19A51BE988A200BFC574 /* 自定义大头针 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DA19A41BE988A200BFC574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DA19B91BE988A200BFC574 /* LaunchScreen.storyboard in Resources */,
+				18DA19B61BE988A200BFC574 /* Assets.xcassets in Resources */,
+				18DA1A491BEA6B7600BFC574 /* ZYDetailView.xib in Resources */,
+				18DA19B41BE988A200BFC574 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DA19A21BE988A200BFC574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DA19C81BE98A1800BFC574 /* ZYTuangou.m in Sources */,
+				18DA19B11BE988A200BFC574 /* ViewController.m in Sources */,
+				18DA1A3E1BEA3C6300BFC574 /* ZYDetailTuangouAnnotation.m in Sources */,
+				18DA19CB1BE98BD300BFC574 /* ZYTuangouAnnotation.m in Sources */,
+				18DA19AE1BE988A200BFC574 /* AppDelegate.m in Sources */,
+				18DA1A3B1BEA346A00BFC574 /* ZYTuangouAnnotationView.m in Sources */,
+				18DA19AB1BE988A200BFC574 /* main.m in Sources */,
+				18DA1A441BEA40E800BFC574 /* ZYDetailTuangouAnnotationView.m in Sources */,
+				18DA1A471BEA6B3D00BFC574 /* ZYDetailView.m in Sources */,
+				18DA1A381BEA2EAB00BFC574 /* UIView+AdjustFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18DA19B21BE988A200BFC574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DA19B31BE988A200BFC574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DA19B71BE988A200BFC574 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DA19B81BE988A200BFC574 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DA19BB1BE988A200BFC574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18DA19BC1BE988A200BFC574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DA19BE1BE988A200BFC574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义大头针/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZY.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18DA19BF1BE988A200BFC574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义大头针/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZY.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DA19A11BE988A200BFC574 /* Build configuration list for PBXProject "自定义大头针" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DA19BB1BE988A200BFC574 /* Debug */,
+				18DA19BC1BE988A200BFC574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DA19BD1BE988A200BFC574 /* Build configuration list for PBXNativeTarget "自定义大头针" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DA19BE1BE988A200BFC574 /* Debug */,
+				18DA19BF1BE988A200BFC574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DA199E1BE988A200BFC574 /* Project object */;
+}

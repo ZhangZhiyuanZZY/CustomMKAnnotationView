@@ -50,6 +50,7 @@
         
         ///创建数组
         _allData = @[tougou,tougou1];
+        
     }
     return _allData;
 }

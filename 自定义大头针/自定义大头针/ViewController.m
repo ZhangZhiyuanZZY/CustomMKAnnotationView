@@ -43,7 +43,7 @@
         
         ZYTuangou *tougou1 = [[ZYTuangou alloc]init];
         tougou1.title = @"天上人间";
-        tougou1.subtitle = @"乐不思蜀";
+        tougou1.subtitle = @"乐不思蜀a";
         tougou1.icon = @"category_2";
         tougou1.imageName = @"ktv";
         tougou1.coordinate = CLLocationCoordinate2DMake(29, 110);
@@ -62,16 +62,16 @@
 }
 
 
-- (void)awakeFromNib
-{
-//    UIButton *bb = [UIButton buttonWithType:UIButtonTypeContactAdd];
-//    [self.view addSubview:bb];
-    
-    UIView *vv = [[UIView alloc]init];
-    vv.backgroundColor = [UIColor redColor];
-//    vv.frame = CGRectMake(0, 0, 100, 100);
-    [self.view addSubview:vv];
-}
+//- (void)awakeFromNib
+//{
+////    UIButton *bb = [UIButton buttonWithType:UIButtonTypeContactAdd];
+////    [self.view addSubview:bb];
+//    
+//    UIView *vv = [[UIView alloc]init];
+//    vv.backgroundColor = [UIColor redColor];
+////    vv.frame = CGRectMake(0, 0, 100, 100);
+//    [self.view addSubview:vv];
+//}
 
 
 

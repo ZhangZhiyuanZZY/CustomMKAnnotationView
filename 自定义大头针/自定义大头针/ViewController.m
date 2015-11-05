@@ -55,9 +55,30 @@
 }
 
 
+- (void)loadView
+{
+    [super loadView];
+}
+
+
+- (void)awakeFromNib
+{
+//    UIButton *bb = [UIButton buttonWithType:UIButtonTypeContactAdd];
+//    [self.view addSubview:bb];
+    
+    UIView *vv = [[UIView alloc]init];
+    vv.backgroundColor = [UIColor redColor];
+//    vv.frame = CGRectMake(0, 0, 100, 100);
+    [self.view addSubview:vv];
+}
+
+
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+  
     //代理
     self.mapView.delegate = self;
     //遍历模型添加到mapView   这是第一次进程序的时候默认加载, 地图上的大图标, 一进程序就能看见
